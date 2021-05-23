@@ -1,0 +1,29 @@
+
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "HJXYY5247H.com.tadreik.veliola", "HJXYY5247H.com.tadreik.veliola-business" ],
+             "components": [
+               {
+                  "#": "no_universal_links",
+                  "exclude": true,
+                  "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+               },
+               {
+                  "/": "/reauth/*",
+                  "comment": ""
+               },
+               {
+                  "/": "/return/*",
+                  "comment": ""
+               }
+             ]
+           }
+       ]
+   },
+   "webcredentials": {
+       "apps": [    "HJXYY5247H.com.tadreik.veliola",
+                    "HJXYY5247H.com.tadreik.veliola-business" ]
+    }
+}
